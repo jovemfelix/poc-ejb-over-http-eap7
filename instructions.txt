@@ -1,0 +1,9 @@
+=================================================
+INSTRUCTIONS
+=================================================
+
+- download and install the latest Wildfly version (11.0.0.Final)
+- add the application user with "bin/add-user.sh -a -u ejb -p ejb"
+- run "mvn clean install" on "wejb", "wejb-ear" and then "web"
+- deploy "wejb-ear/target/wejb.ear" and "web/target/web.war"
+- on your browser, open "http://localhost:8080/web"
